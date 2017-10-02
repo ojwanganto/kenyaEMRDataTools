@@ -1,0 +1,253 @@
+querybuilder.menu.addToGroupBy=Dodaj u group-by
+querybuilder.menu.addToOrderBy=Dodaj u order-by
+querybuilder.menu.addExpression=Dodaj expression...
+querybuilder.menu.addCondition=Dodaj condition...
+querybuilder.menu.addSubquery=Dodaj subquery
+querybuilder.menu.union=Unija
+querybuilder.menu.edit=Izmeni...
+querybuilder.menu.remove=Ukloni
+querybuilder.menu.removeAll=Ukloni sve
+querybuilder.menu.sortByName=Sortiraj po imenu
+querybuilder.menu.pack=Upakuj
+querybuilder.menu.selectAll=Selektuj sve
+querybuilder.menu.deselectAll=Selektuj ništa
+querybuilder.menu.openAllForeignTables=Otvori sve foreign tabele
+querybuilder.menu.openAllPrimaryTables=Otvori sve primary tabele
+querybuilder.menu.references=Reference...
+querybuilder.menu.addWhereCondition=Dodaj where radnju...
+querybuilder.menu.addHavingCondition=Dodaj having radnju...
+
+querybuilder.message.chooseFunction=Izaberi funkciju:
+querybuilder.message.wait=Čekaj...
+querybuilder.message.loading=Učitava: {0}
+querybuilder.message.tableLoadedAliasDisabled=Tabela je već učitana i aliasing je zabranjen!
+querybuilder.message.reading=Učitava...
+querybuilder.checkbox.allRowsFrom=Svi redovi od {0}
+querybuilder.menu.foreignTables=Foreign tabele
+querybuilder.message.references={0} reference
+querybuilder.message.reverseSyntax=Obrnuta sintaksa
+querybuilder.action.join=Poveži sa Drag&Drop
+querybuilder.action.copySyntax=Kopiraj sintaksu
+querybuilder.action.reverseSyntax=Okreni sintaksu...
+querybuilder.action.arrangeentitiesgrid=Uredi grid
+querybuilder.action.arrangeentitiesspring=Uredi spring
+querybuilder.action.packEntities=Upakuj entitete
+querybuilder.action.removeEntities=Ukloni entitete
+querybuilder.message.continue=Da li želite da nastavite?
+querybuilder.message.joinAlreadyExists=Relacija već postoji: {0}
+querybuilder.message.addJoin=Dodaj relaciju
+querybuilder.tooltip.schemaFilter=Filter sheme
+querybuilder.tooltip.typeFilter=Filter tipa
+
+querybuilder.designer=Dizajner
+querybuilder.syntax=Sintaksa
+querybuilder.syntaxChanged=Sintaksa je promenjena!\nda li želite da primenite promene (dizajner mora da se pokrene ponovo)?
+
+application.preferences.language=Jezik
+application.preferences.autoJoin=Automatska relacija
+application.preferences.autoAlias=Automatski alias
+application.preferences.alwaysQuoteIdentifiers=Uvek označi identifikatore
+application.preferences.useSchemaName=Koristi naziv sheme u definiciji sintakse
+application.preferences.loadObjectsAtOnce=Učitaj listu objekta tabele odjednom
+application.preferences.selectAllColumns=Automatski selektuj sve kolone
+application.preferences.autoCommit=Automatsko izvršenje
+
+application.message.replaceFile={0}\nsnimi preko postojećeg fajla?
+application.saveQuery=Sačuvaj upit
+application.launchQuery=Pokreni upit
+
+application.menu.newQuery=Novi upit
+application.message.useConnection=Koristi konekciju:
+application.message.schema=Shema:
+application.message.noConnection=Nema konekcije!
+application.menu.loadQuery=Učitaj upit...
+application.menu.exit=Izlaz
+application.menu.cascade=Redom
+application.menu.tileHorizontal=Horizontalno
+application.menu.closeAll=Zatvori sve
+application.menu.about=O programu {0}...
+application.message.quit=Da li zaista napuštaš SQLeo?
+application.ok=Ok
+application.close=Zatvori
+application.next=Sledeći >
+application.back=< Prethodni
+
+application.tool.content=Prikaži sadržaj...
+application.tool.definition=Prikaži definiciju...
+
+application.objetctype.links=Povezani objekti
+querybuilder.objetctype.all=Svi tipovi objekata
+
+querybuilder.objetctype.TABLE=Tabele
+querybuilder.objetctype.VIEW=Upiti
+querybuilder.objetctype.LOCAL\ TEMPORARY=Lokalni privremen
+
+application.preferences.autoCommitWarning=Upozorenje:Izvršenje u prozoru se odnosi na sve otvorene prozore za konekciju kada je automatsko izvršenje isključeno!
+application.preferences.trace=Log (zahteva restart)
+application.preferences.maxcolsize=Maksimalna veličina kolone:
+
+--added with 2014.08
+application.menu.recentQueries=Skorašnji upiti
+application.menu.print=štampa
+application.menu.help.howtouse=Dokumentacija na internetu
+application.menu.donate=Doniraj
+querybuilder.action.saveDiagramAsImage=Sačuvaj kao sliku
+application.tool.preferences=Podešavanja
+application.query_designer=Dizajner upita
+application.preferences.relationsRenderArc=Luk
+application.preferences.relationsRenderLinear=Linearan
+application.preferences.relationsRender=Prikaz relacija
+application.preferences.checkforupdate=Proveri da li postoji nova verzija pri pokretanju
+application.preferences.autoComplete=Automatski završetak
+application.preferences.askBeforeExit=Pitaj me pre izlaza
+application.fontSizePercentage=Veličina fonta % (neophodan restart)
+application.preferences.maxrowfetchsize=Maksimalan broj dobijenih redova:
+application.menu.file=Datoteka
+application.menu.actions=Akcije
+application.menu.tools=Alati
+application.menu.window=Prozor
+application.menu.help=Pomoć
+application.message.saveQuery=Da li želis da sačuvaš upit kao datoteku ?
+
+--added with 2014.09
+application.preferences.qb.savePosInSQL=Sačuvaj pozicije tabela u SQL sintaksi
+
+--added with 2014.10
+application.maxQueriesInHistory=Maksimalan broj upita u istoriji
+
+--added with 2014.11
+application.iconSizePercentage=Veličina ikonica % (neophodan restart)
+
+-- add with 2015.05 
+querybuilder.objetctype.GLOBAL\ TEMPORARY=GLOBALNI PRIVREMEN"
+querybuilder.objetctype.SYSTEM\ TABLE=SISTEMSKE TABELE"
+
+datacomparer.generatedQueryButton=Tekst generisanog upita
+datacomparer.onlyDifferentValues=Samo različite vrednosti
+datacomparer.addDiffStatusInOutput=Dodaj razliku statusa na izlazu
+datacomparer.start=Počni
+datacomparer.RightSideText=Napomena: Desna strana teksta se automatski\nkopira iz leve kada je prazna
+datacomparer.VersionWith100rowsMax=Verzija sa max 100 reda za upit za upoređivanje podataka, Molimo Vas donirajte za više
+datacomparer.LoadSetup=Učitaj podešavanja
+datacomparer.SaveSetup=Sačuvaj podešavanja
+datacomparer.DoYouWantToSave=Da li želite da sačuvate podešavanja za datacomparer?
+
+querybuilder.message.sqleoPivotCheckbox=Trasformiši u Pivot
+querybuilder.message.sqleoGroupConcat.chooseSeparator=izaberi separator:
+querybuilder.menu.add=dodaj...
+querybuilder.message.sqleoPivotHeaderColumn=Odaberi kolonu zaglavlja za Pivot:
+
+querybuilder.menu.addToGroupBySyncSelect=Sinhronizuj sa selektovanim kolonama
+
+-- add with 2015.07 
+datacomparer.TableViewQuery=Tabela/Pregled ili (Upit):
+metadataexplorer.Table=Tabela:
+metadataexplorer.Column=Kolona:
+metadataexplorer.TableType=Tip tabele:
+metadataexplorer.action.Start=Početak
+metadataexplorer.action.Reset=Reset
+metadataexplorer.action.Contains=sadrži
+metadataexplorer.action.Equals=jednako
+metadataexplorer.action.StartWith=počinje sa
+metadataexplorer.action.EndWith=završava se sa
+metadataexplorer.browse=Potraži
+metadataexplorer.search=Pretraga
+metadataexplorer.menu.AddtoNewQuery=Dodaj u novi upit
+metadataexplorer.menu.AddtoQuery=Dodaj u upit
+metadataexplorer.menu.AddtoGroup=Dodaj u grupu...
+metadataexplorer.menu.chooseCol=Odaberi kolone...
+metadataexplorer.menu.listCopy=Kopiraj listu
+metadataexplorer.menu.listExport=Izvezi listu...
+metadataexplorer.menu.listRefresh=Osveži
+
+
+application.tool.delete=Obriši sadržaj
+application.tool.drop=Obriši <objekat>
+application.tool.NewCommand=Nova komanda ...
+
+metadataexplorer.menu.connect=konekcija
+metadataexplorer.menu.reconnect=rekonektuj se
+metadataexplorer.menu.newDriver=novi drajver...
+metadataexplorer.menu.newDatasource=novi DataSource...
+metadataexplorer.menu.setAsDefaultSchema=Podesi kao podrazumevanu shemu
+metadataexplorer.menu.removeSchemaFilter=ukloni filter iz sheme
+metadataexplorer.menu.delete=obriši
+metadataexplorer.menu.duplicate=dupliraj...
+metadataexplorer.menu.properties=podešavanja...
+
+application.commandEditor.autoSelectConnection=Automatski selektuj poslednju konekciju
+querybuilder.message.VersionWith3tablesMax=Verzija sa 3 tabele maksimalno po prikazu, Molimo Vas donirajte za više
+
+application.tool.show=Prikaži
+application.message.loadQueryInWindow=Učitaj datoteku u:
+querybuilder.message.loading.relations=proveri {0} relacije
+
+datasource.message.name=naziv izvora
+datasource.message.url=url
+datasource.message.user=korisnik
+datasource.message.status=status
+datasource.message.password=lozinka
+datasource.message.remember=sačuvaj lozinku
+datasource.message.autoConnect=automatski se poveži prilikom pokretanja
+datasource.message.validName=molim, unesite ispravan naziv.
+datasource.message.invalidChar=karakteri \\.|,/;<:>@ nisu dozvoljeni!\nmolim, unesite ispravan naziv.
+datasource.message.joinFile=join definicija fajla
+
+-- add with 2015.09 
+datacomparer.ConnexionNotSet=Nema selektovane konekcije u 
+datacomparer.TableNotSet=Nema tabele/upita selektovanog u 
+
+querybuilder.message.multipleQueries=Nije moguće selektovati više upita u Query Builderu, \nMolim koristite Command Editor
+
+application.copyAndOpenFileExtension=Kopiraj i otvori u editoru ekstenziju:
+
+commandeditor.console=Konzola
+commandeditor.resultGrid=Resultat
+
+-- added with 2015.10 
+application.menu.help.keyboardShortcuts=Prečice tastature
+datacomparer.WorkingConnection=Trenutna konekcija:
+
+-- added with 2016.01 
+datasource.message.readonly=konekcija sa pravom pregleda
+application.message.readonly=SQLeo konekcija samo sa pravom pregleda i ne dozvoljava vam ovu operaciju
+application.preferences.autoSavePoint=Auto savepoint (PostgreSQL, MonetDB, ...)
+
+-- added with 2016.02 
+datasource.message.color=boja
+application.preferences.populateFilter=Popunite vrednosti filtera
+
+-- added with 2016.08 
+datacontent.InsertRecord=Unesi zapis
+datacontent.DeleteRecord=Obriši zapis
+datacontent.ApplyChangesToDB=Evidentiraj promene u bazi
+datacontent.ExcelExport=Izvoz u excel...
+datacontent.ExcelPivot=Izvezi pivot HTML...
+datacontent.Filter=Filter
+datacontent.FindReplace=Pronađi/zameni...
+datacontent.menu.ShowChanges=Prikaži promene...
+datacontent.menu.UpdateCriteria=Kriterijum ažuriranja...
+datacontent.message.NoUpdateCriteria=Ne postoji kriterijum ažuriranja!
+datacontent.menu.ReverseSyntax=Obrnuta sintaksa
+datacontent.message.NoQueryToReverse=Ne postoji upit!
+datacontent.menu.RelaunchQuery=ponovo pokreni upit
+datacontent.menu.ExportData=Izvoz podataka ...
+datacontent.menu.ImportData=Uvoz podataka ...
+datacontent.menu.CountRecords=broj zapisa
+datacontent.message.TotalRecords=Ukupan broj zapisa : 
+datacontent.Record=zapis 
+datacontent.Changes=promene 
+
+-- added with 2016.09 (TRANSLATION TO DO)
+datacontent.popup.CopySpecial=Copy special
+datacontent.popup.CopyAndOpen=Copy and open in editor
+datacontent.popup.Copy=Copy
+datacontent.popup.Paste=Paste
+datacontent.popup.CloneRecord=Clone record
+datacontent.popup.TrimSpace=Trim trailing spaces
+datacontent.popup.SetNull=Set <null>
+datacontent.popup.SetToday=Set <today>
+datacontent.popup.ResetOldVal=Reset <old-value>
+datacontent.popup.SortAsc=Sort ascending
+datacontent.popup.SortDesc=Sort descending
+datacontent.popup.Jump=Jump...

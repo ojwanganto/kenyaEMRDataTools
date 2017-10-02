@@ -1,0 +1,2 @@
+Click on project and add jars - choose apple jar provided - https://developer.apple.com/legacy/library/samplecode/AppleJavaExtensions/AppleJavaExtensions.zip
+Add mariadb jar - https://downloads.mariadb.org/client-java/1.4.6/
