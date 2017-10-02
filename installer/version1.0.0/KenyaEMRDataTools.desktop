@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=KenyaEMR Data Tools
+GenericName=Data Tools
+Comment=Desktop launcher for KenyaEMR Data Tools
+Exec=java -jar /opt/KenyaEMRDataTools/kenyaEMRQueryTools.jar
+Icon=/opt/KenyaEMRDataTools/kenyaEMRDataToolsIcon.png
+Terminal=false
+Categories=Data;Reporting;
